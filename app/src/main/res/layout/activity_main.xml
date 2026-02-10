@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message"
+        android:ems="10" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:layout_below="@id/editText1"
+        android:layout_marginTop="8dp" />
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/buttonLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👍"
+        android:layout_below="@id/frameLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/buttonDislike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👎"
+        android:layout_below="@id/frameLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ссылка на сайт"
+        android:layout_below="@id/buttonLike"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/buttonGoToSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перейти на сайт"
+        android:layout_below="@id/textViewLink"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>

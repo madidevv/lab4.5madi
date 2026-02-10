@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab45Madi</string>
+    <string name="edit_message">Введите текст</string> <!-- <- добавили -->
+</resources>
