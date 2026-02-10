@@ -57,3 +57,7 @@ android:hint="@string/edit_message" – подсказка по умолчани
 Пользователь нажимает Like или Dislike, изображение меняется на следующее.
 
 Адрес сайта текущего изображения отображается в TextView, и по кнопке можно перейти на сайт.
+
+<img width="302" height="388" alt="image" src="https://github.com/user-attachments/assets/feab7dd2-8428-4472-99eb-e69eabd01f5b" />
+<img width="294" height="379" alt="image" src="https://github.com/user-attachments/assets/c015bb05-89cd-4c89-abda-e084d3a74272" />
+
